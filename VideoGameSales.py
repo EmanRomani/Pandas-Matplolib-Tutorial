@@ -34,3 +34,4 @@ Average_Sales = df["NA_Sales"].mean()
 # print(f"{Average_Sales:.2f}")
 # print(df.columns)
 
+df["Country"] = df["Country"].replace({"[USA]" : "United States"})
